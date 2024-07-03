@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        div{
+            width:100px;
+            height:100px;
+            margin:20px;
+            border:5px solid black;
+            padding:20px;
+        }
+        .box02{
+            width:455px;
+            height:455px;
+            border-color:#000000 18px solid;
+            padding-top:205px;
+            padding-left:200px;
+            background-color:#bb90d6;
+        }
+    </style>
+</head>
+<body>
+    <div class="box01">박스1</div>
+    <div class="box02">박스2</div>
+</body>
+</html>
+
+<!-- 박스의 크기 순서 : (겉)margin > border > padding > content(안) -->
+<!-- 겉쪽에서 안쪽으로 순서 -->
